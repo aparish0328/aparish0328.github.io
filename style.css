@@ -1,0 +1,304 @@
+body{
+    background-color: #FFFFF0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    background-color: lightblue; 
+    width: 100vw;    
+    height:5vh;
+    float:left;
+    overflow: hidden;
+    position: relative;
+}
+a{  position: relative;
+    text-align: center; 
+    font-size: 1.5vh;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    height:5vh;
+}
+.container{
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    align-items: center;
+}
+#space{
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    position: relative;
+    padding: 10vh;
+}
+.inst-container{
+    margin-left:5vw;
+    margin-right:5vw;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-bottom: 5vh;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    font-family: "consolas", sans-serif;
+    Border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    border-color: lightblue;
+    padding: 10vh;
+    background-color: white;
+    line-height: 4vh;
+}
+.num-container{ 
+    display: flex;
+    align-items: left;
+    margin-left: 1vw;
+    font-family: "consolas", sans-serif;    
+    font-weight: bold;
+    font-size: 3vh;
+    position:relative;
+}
+.sup{
+    position: relative;
+    margin-left: 48vw;
+    color: gray;
+    font-size: 1vh;
+    margin-bottom:0;
+    margin-top: 15vh;
+}
+.small-container{
+    margin-right:1vw;
+    margin-left:.5vw;
+    font-family: "consolas", sans-serif;
+    font-size: 2vh;
+    position: relative;
+    line-height: 4vh;
+    margin-bottom:0;
+}
+h1{
+    font-family: "consolas", sans-serif;
+    font-weight: bold;
+    font-size: 3.5vh;
+    position: relative;
+    margin-left: 22vw;
+    margin-right:20vw;
+    width: 50vw;
+    height: 2vh;
+    margin-bottom:10vh;
+    text-align: center;
+    padding:4vh;
+    line-height: 4vh;
+}
+h2 {
+    font-family: "consolas", sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    position: relative;
+    line-height: 4vh;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    text-align: center;
+    padding: 2vh;
+    width: 90vw;
+    margin-left: 3vw;
+}
+#rig_pic{
+    Border-style: solid;
+    border-width: 5px; 
+    border-color: lightblue;
+    border-radius: 10px; 
+    width: 50vh;
+    height: 35vh;
+    margin-left: 35vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+#first_source{
+    margin-left: 1vw;
+    position: relative;
+    font-size: 1vh;
+    text-align: center;
+    margin-top:1vh;
+    margin-bottom: 10vh;
+}
+#me{ 
+    Border-style: solid;
+    border-width: 5px; 
+    border-color: lightblue;
+    border-radius: 10px; 
+    padding: 0px;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 30vw;
+    margin-top: 1vh;
+    position: relative;
+
+}
+.part_pic_container{
+    Border-style: solid;
+    border-width: 5px; 
+    border-color: lightblue;
+    border-radius: 10px; 
+    width: 40vw;
+    height: 55vh;
+    margin-left:1vw;
+}
+.part_text-container{
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: "consolas", sans-serif;
+    Border-style: solid;
+    border-width: 5px; 
+    border-radius: 10px;
+    border-color: lightblue;
+    padding: 1vw;
+    background-color: white;
+    line-height: 4vh;
+    height: 52vh;
+    margin-right: 1vw;
+    margin-left: 3vw;
+    width: 60vw;
+}
+#pic_placement_1{
+    Border-style: solid;
+    border-width: 5px; 
+    border-color: lightblue;
+    border-radius: 10px; 
+    width: 25vw;
+    height: 40vh;
+    margin-top: 2vh;
+    position: relative;
+}
+#pic_placement_2{
+    Border-style: solid;
+    border-width: 5px; 
+    border-color: lightblue;
+    border-radius: 10px; 
+    width: 25vw;
+    height: 40vh;
+    margin-left: 2vh;
+    margin-bottom:0;
+}
+#pic_placement_3{
+    Border-style: solid;
+    border-width: 5px; 
+    border-color: lightblue;
+    border-radius: 10px; 
+    width: 25vw;
+    height: 40vh;
+    margin-left: 15vw;
+    margin-top: 2vh;
+}
+#pictures_src{
+    margin-left: 30vh;
+    position: relative;
+    font-size:1vh;
+    margin-bottom: 1vh;
+}
+#parts_img_src{
+    margin-left: 10vw;
+    position: relative;
+    font-size: 1vh;
+    margin-top: 1vh;
+    margin-bottom: .5vh;
+}
+#header_space{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    position: relative;
+    padding: 1vh;
+}
+
+@media screen and (orientation:portrait)
+and (min-device-width: 319px)
+and (max-device-width: 480px)
+{    #rig_pic{
+        margin-left: 1vh;
+    }
+    .flex-container{
+        display: none;
+    }
+    h1{
+        font-size: 2vh;
+    }
+    .container{
+        display: flex;
+        height: auto;
+        width: 100vw;
+        position: relative;
+        align-items: center;
+    
+    }
+    .part_text-container{
+        text-align: center;
+        font-size: 2vh;
+        font-family: "consolas", sans-serif;
+        Border-style: solid;
+        border-width: .5vh; 
+        border-radius: 1vh;
+        border-color: lightblue;
+        padding: 1vw;
+        background-color: white;
+        line-height: 1.5vh;
+        height: 52vh;
+        margin-right: 1vw;
+        margin-left: 1vw;
+        width: 60vw;}
+    .part_pic_container{
+        border-width: .5vh; 
+        width: 40vw;
+        height: 53vh;
+        margin-left:1vw;
+        }
+        #space{
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+        position: relative;
+        padding: 1vh;
+        }
+    #me{
+        width:70vw;
+        height:40vh;
+        margin-left: 7vh;
+        margin-top:1vh;
+    }
+    .inst-container{
+        width: 100vw;
+        margin-left:0;
+    }
+    #pic_placement_1{
+        border-width: .5vw;
+        border-radius: .5vw; 
+        width: 40vw;
+        height: 20vh;
+        margin-top: 2vh;
+        position: relative;
+    }
+    #pic_placement_2{
+        border-width: .5vw; 
+        border-radius: .5vw; 
+        width: 40vw;
+        height: 20vh;
+        margin-left: 2vh;
+        margin-bottom:0;
+    }
+    #pic_placement_3{
+        border-width: .5vw; 
+        border-radius: .5vw; 
+        width: 40vw;
+        height: 20vh;
+        margin-left: 15vw;
+        margin-top: 2vh;
+    }
+    #parts_img_src{
+     line-height: 1vh;   
+    }
+    #pictures_src{
+        line-height: 1vh;
+        margin-left:1vh;
+    }
+}
